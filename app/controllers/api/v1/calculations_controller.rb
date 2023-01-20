@@ -14,6 +14,7 @@ class Api::V1::CalculationsController < ApplicationController
   }
   end
   
+# Method to know the level of obesity
   private
   
   def set_classification(result)
@@ -33,6 +34,8 @@ class Api::V1::CalculationsController < ApplicationController
     end
   end
   
+# Method for calculating the level of obesity
+
   def obesity_level(result)
     case result
     when 30.0..34.9 
