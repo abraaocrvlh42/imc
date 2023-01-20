@@ -2,8 +2,8 @@ class Api::V1::CalculationsController < ApplicationController
   def imc
     name = params[:name]
     age = params[:age]
-    height = params[:height] # numeros decimais
-    weight = params[:weight] # numeros decimais
+    height = params[:height]
+    weight = params[:weight]
   
     result = (weight / ( height ** 2 )).round(2)
   
@@ -26,9 +26,9 @@ class Api::V1::CalculationsController < ApplicationController
     when 25.0..29.9
        "Overweight"
     when 30.0..34.9
-       "Obesity level I"
+       "Overweight"
     when 35.0..39.9
-       "Obesity level II"
+       "Overweight"
     when 40
        "Greater than or equal to 40 is obesity III"      
     end
