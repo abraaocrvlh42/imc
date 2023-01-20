@@ -17,7 +17,6 @@ class Api::V1::CalculationsController < ApplicationController
   private
   
   def set_classification(result)
-     # aqui seria a logica usando if ou melhor usando case para definir a classificação de acorto com o resultado do calculo IMC
     case result
     when 18.5
        "Under weight"
