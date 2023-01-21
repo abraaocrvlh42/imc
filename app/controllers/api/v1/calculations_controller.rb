@@ -1,4 +1,7 @@
 class Api::V1::CalculationsController < ApplicationController
+  
+  before_action :authorize_request
+
   def imc
     name = params[:name]
     age = params[:age]
@@ -45,7 +48,7 @@ class Api::V1::CalculationsController < ApplicationController
     when 40
       "III"
     else
-      "-"
+      "Did not reach the level of obesity above the conventional."
     end
   end
 end
