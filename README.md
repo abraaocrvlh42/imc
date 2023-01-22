@@ -66,7 +66,7 @@ Esta rota precisa estar protegida com um Token de autenticação JWT, mas não p
 
  **Overview**
 
-<h3>Clonando o projeto</h3>
+**Clonando o Projeto**
 
 1. Clone via HTPPS:
 ```
