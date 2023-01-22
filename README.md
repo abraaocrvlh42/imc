@@ -45,7 +45,7 @@ Esta rota precisa estar protegida com um Token de autenticação JWT, mas não p
 	rails s
 	```
 
-## Executando o projeto
+## API
 
  --> **Sobre a API**
 
