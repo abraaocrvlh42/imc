@@ -73,5 +73,13 @@ git@github.com:abraaocrvlh42/imc.git
 Antes de fazer uso da API, check se as dependências estão devidamente instaladas, por precaução, execute: 
 </p>
 
-```bundle install```
+```
+bundle install
+```
+
+**Melhorias a serem feitas**
+
+1. Escrever testes usando RSpec
+2. Refatorar o código
+3. Retirar a lógica do controller e por em uma classe PORO na pasta lib
 
