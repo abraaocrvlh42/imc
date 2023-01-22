@@ -13,3 +13,11 @@ O desenvolvedor backend deverá criar uma rota HTTP POST, que receba um JSON e r
 <p>
 Esta rota precisa estar protegida com um Token de autenticação JWT, mas não precisa ter uma rota de Login. 
 </p>
+
+<h2>Executando o projeto</h2>
+
+<h3>Pré-requisitos</h3>
+<p>
+ruby 3.2.0
+Rails 7.0.4.1
+</p>
