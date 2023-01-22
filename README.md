@@ -7,6 +7,11 @@ Dental Office, há mais de 20 anos assumimos a missão de impactar a vida dos pr
 <h3> Sobre o desafio </h3>
 
 <p>
+IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+
+O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+</p>
+<p>
 Tenho um aplicativo do meu software médico, e vamos incluir uma nova feature que é o cálculo do IMC do paciente, pra isso, preciso que seja desenvolvida uma API REST que receba o peso e a altura, e retorne o resultado do IMC do paciente.
 
 O desenvolvedor backend deverá criar uma rota HTTP POST, que receba um JSON e retorne um JSON.
@@ -52,9 +57,11 @@ Esta rota precisa estar protegida com um Token de autenticação JWT, mas não p
 **Introdução**
 
  <p>
- IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+ O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).
 
-O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+ IMC = Peso ÷ (Altura × Altura)
+
+ Exemplo de como calcular o IMC: IMC = 80 kg ÷ (1,80 m × 1,80 m) = 24,69 kg/m2 (Peso ideal)
  </p>
 
  **Overview**
@@ -70,7 +77,7 @@ https://github.com/abraaocrvlh42/imc.git
 git@github.com:abraaocrvlh42/imc.git
 ```
 <p>
-Antes de fazer uso da API, check se as dependências estão devidamente instaladas, por precaução, execute: 
+Com o projeto clonado, iremos certificar que as dependências estão devidamente instaladas, por precaução, execute: 
 </p>
 
 ```
