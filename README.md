@@ -35,7 +35,7 @@ Esta rota precisa estar protegida com um Token de autenticação JWT, mas não p
 	```
 	rails db:migrate
 	```
-3. Instalar gems e dependências
+3. Instalar gems e dependências como JWT, Bcrypt e RackCORS
 	```
 	bundle install
 	```
