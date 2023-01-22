@@ -84,7 +84,7 @@ Com o projeto clonado, iremos certificar que as dependências estão devidamente
 bundle install
 ```
 
-Uma breve documentação da API: https://documenter.getpostman.com/view/25455228/2s8ZDa1M6u
+- Uma breve documentação da API: https://documenter.getpostman.com/view/25455228/2s8ZDa1M6u
 
 
 **Melhorias a serem feitas**
