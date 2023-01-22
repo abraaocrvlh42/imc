@@ -1,5 +1,3 @@
-# README
-
 <h2> Challenge - Dental Office </h2>
 
 <p>
