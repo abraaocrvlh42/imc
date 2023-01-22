@@ -57,3 +57,15 @@ Esta rota precisa estar protegida com um Token de autenticação JWT, mas não p
 O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
  </p>
 
+ **Overview**
+<p>
+Clone via HTPPS:
+```
+https://github.com/abraaocrvlh42/imc.git
+```
+Clone via SSH: 
+```
+git@github.com:abraaocrvlh42/imc.git
+```
+Antes de fazer uso da API, check se as dependências estão devidamente instaladas, por precaução, execute: ```bundle install```
+</p>
