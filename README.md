@@ -49,7 +49,7 @@ Esta rota precisa estar protegida com um Token de autenticação JWT, mas não p
 
  --> **Sobre a API**
 
-<h3>introdução</h3>
+**Introdução**
 
  <p>
  IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
