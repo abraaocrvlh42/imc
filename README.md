@@ -2,6 +2,10 @@
 
 <h2> Challenge - Dental Office </h2>
 
+<p>
+Dental Office, há mais de 20 anos assumimos a missão de impactar a vida dos profissionais da saúde e de seus pacientes, através da gestão eficiente de sua clínica e consultório. E para manter essa excelência, a RH Software agora é Dental Office!
+</p>
+
 <h3> Sobre o desafio </h3>
 
 <p>
@@ -20,9 +24,9 @@ Esta rota precisa estar protegida com um Token de autenticação JWT, mas não p
 
  -->   **Pré-requisitos**
 
-- Ruby - 2.7.4
+- Ruby - 3.2.0
 
-- Rails - 6.1.4
+- Rails - 7.0.4.1
 
 - PostgreSQL
 
@@ -39,14 +43,9 @@ Esta rota precisa estar protegida com um Token de autenticação JWT, mas não p
 	```
 	bundle install
 	```
+
+4. Executar a aplicação
 	```
-	yarn install
+	rails s
 	```
-5. Executar os testes
-	```
-	bin/rails test
-	```
-6. Executar a aplicação
-	```
-	rails server
-	```
+
