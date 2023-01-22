@@ -3,8 +3,8 @@ class Api::V1::CalculationsController < ApplicationController
   before_action :authorize_request
 
   def imc
-    name = params[:name]
-    age = params[:age]
+    name   = params[:name]
+    age    = params[:age]
     height = params[:height]
     weight = params[:weight]
     
