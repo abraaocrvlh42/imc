@@ -7,8 +7,10 @@ class Api::V1::CalculationsController < ApplicationController
     age = params[:age]
     height = params[:height]
     weight = params[:weight]
-  
-    result = (weight / ( height ** 2 )).round(2)
+    
+    puts "*" * 100
+    puts params
+    result = (weight&.to_f / ( height&.to_f ** 2 )).round(2)
   
     render json: {
       imc: result,
