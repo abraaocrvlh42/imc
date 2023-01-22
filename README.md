@@ -16,8 +16,37 @@ Esta rota precisa estar protegida com um Token de autenticação JWT, mas não p
 
 <h2>Executando o projeto</h2>
 
-<h3>Pré-requisitos</h3>
-<p>
-ruby 3.2.0
-Rails 7.0.4.1
-</p>
+## Executando o projeto
+
+ -->   **Pré-requisitos**
+
+- Ruby - 2.7.4
+
+- Rails - 6.1.4
+
+- PostgreSQL
+
+ -->   **Passo a passo**
+1. Criar o banco de dados
+	```
+	rails db:create
+	```
+2. Executar as migrações
+	```
+	rails db:migrate
+	```
+3. Instalar gems e dependências
+	```
+	bundle install
+	```
+	```
+	yarn install
+	```
+5. Executar os testes
+	```
+	bin/rails test
+	```
+6. Executar a aplicação
+	```
+	rails server
+	```
