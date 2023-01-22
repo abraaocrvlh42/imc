@@ -18,8 +18,6 @@ O desenvolvedor backend deverá criar uma rota HTTP POST, que receba um JSON e r
 Esta rota precisa estar protegida com um Token de autenticação JWT, mas não precisa ter uma rota de Login. 
 </p>
 
-<h2>Executando o projeto</h2>
-
 ## Executando o projeto
 
  -->   **Pré-requisitos**
