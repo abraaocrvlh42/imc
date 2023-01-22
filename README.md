@@ -9,3 +9,7 @@ Tenho um aplicativo do meu software médico, e vamos incluir uma nova feature qu
 
 O desenvolvedor backend deverá criar uma rota HTTP POST, que receba um JSON e retorne um JSON.
 </p>
+
+<p>
+Esta rota precisa estar protegida com um Token de autenticação JWT, mas não precisa ter uma rota de Login. 
+</p>
