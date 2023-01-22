@@ -58,14 +58,17 @@ O índice é calculado da seguinte maneira: divide-se o peso do paciente pela su
  </p>
 
  **Overview**
-<p>
-Clone via HTPPS:
+
+- Clonando o projeto
+
+1. Clone via HTPPS:
 ```
 https://github.com/abraaocrvlh42/imc.git
 ```
-Clone via SSH: 
+2. Clone via SSH: 
 ```
 git@github.com:abraaocrvlh42/imc.git
 ```
+<p>
 Antes de fazer uso da API, check se as dependências estão devidamente instaladas, por precaução, execute: ```bundle install```
 </p>
